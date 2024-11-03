@@ -1,8 +1,8 @@
 import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
-import TabLayout from '@/app/(tabs)/index'; // Assurez-vous que le chemin est correct
-import ExploreScreen from '@/app/(tabs)/explore'; // Assurez-vous que le chemin est correct
+import TabLayout from '@/app/index'; // Assurez-vous que le chemin est correct
+import ExploreScreen from '@/app/explore'; // Assurez-vous que le chemin est correct
 
 // Création du Drawer Navigator
 const Drawer = createDrawerNavigator();
